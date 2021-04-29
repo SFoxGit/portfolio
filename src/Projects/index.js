@@ -96,43 +96,59 @@ const Projects = [
     categories: ["frontEnd"]
   },
   {
-    name: "",
-    description: "",
-    image: "",
-    github: "",
-    deployed: "",
-    categories: []
+    name: "Ecommerce back end",
+    description: "Back end for an e-commerce site by modifying starter code using Express.js API with Sequelize to interact with MySQL. The key to this was being able to create all the CRUD routes and execute them in postman (I hear new VSCode will make postman obsolete ooo!)",
+    image: "../images/getCategories.gif",
+    github: "https://github.com/SFoxGit/back_end_via_mysql",
+    deployed: "../images/getCategories.gif",
+    categories: ["backEnd", "API"]
   },
   {
-    name: "",
-    description: "",
-    image: "",
-    github: "",
-    deployed: "",
-    categories: []
+    name: "Original Portfolio",
+    description: "My portfolio before learning React",
+    image: "../images/firstPortfolio.jpg",
+    github: "https://github.com/SFoxGit/shawn_fox_portfolio",
+    deployed: "https://sfoxgit.github.io/shawn_fox_portfolio/",
+    categories: ["frontEnd"]
   },
   {
-    name: "",
-    description: "",
-    image: "",
-    github: "",
-    deployed: "",
-    categories: []
+    name: "MechDog TechBlog",
+    description: "Using handlebars to create a frontend, with an express sequelize backend. This was an impossibly difficult assignment given the very short timeframe given. My original submission was A quality, but I took this as a personal challenge to truly make this a great blog site. I may not be the most creative designer (give me a great UI/UX team and we'll be unstoppable) but I do find this to be a good looking page with GREAT functionality. I really learned to do some unique routing during this.",
+    image: "../images/mechDog.jpg",
+    github: "https://github.com/SFoxGit/MechDog_TechBlog",
+    deployed: "https://blooming-island-18457.herokuapp.com/",
+    categories: ["frontEnd", "backEnd", "API"]
   },
   {
-    name: "",
-    description: "",
-    image: "",
-    github: "",
-    deployed: "",
-    categories: []
+    name: "Working It Out",
+    description: "Created a back end for an existing front end that allows the user to save exercises into a mongo db. The frontend also requires the db return modified information in order to present exercises in a graph.",
+    image: "../images/stats.jpg",
+    github: "https://github.com/SFoxGit/working_it_out",
+    deployed: "https://working-it-out-001.herokuapp.com",
+    categories: ["backEnd", "API"]
   },
   {
-    name: "",
-    description: "",
-    image: "",
-    github: "",
-    deployed: "",
-    categories: []
+    name: "Direct Dedicated Directory",
+    description: "Using React to dynamically create an employee table that is fetched from an API that generates random users. Thanks to react you can also sort or filter this table. My first real expedition into React and I loved it!",
+    image: "../images/desktopView.gif",
+    github: "https://github.com/SFoxGit/direct-dedicated-directory",
+    deployed: "https://sfoxgit.github.io/direct-dedicated-directory/",
+    categories: ["frontEnd", "backEnd", "API", "React"]
   },
+  {
+    name: "Ghastly Grin",
+    description: "Final group project of my cohort. I set the rest of my team on the task of making our project look beautiful, while I made it functional. I wanted this to be a fully functioning multiplayer game, I always loved playing Cards Against Humanity with my friends but now we live hundreds of miles away from each other. Now that I am a web developer distance means nothing. So I created a server and a database. Brought in the CaH base set, and created some of my own. Connected the backend and frontend, used short polling for the lobby and then timers based on row creation in MySQL (seemed like a clever solution). A ton of routes later, we had a game. Now it's just making it more effecient and adding more features! I'm so incredibly proud of this project.",
+    image: "../images/homePage.png",
+    github: "https://github.com/SFoxGit/Ghastly-Grin",
+    deployed: "https://github.com/SFoxGit/Ghastly-Grin/blob/main",
+    categories: ["backEnd", "frontEnd", "API", "React"]
+  },
+  // {
+  //   name: "",
+  //   description: "",
+  //   image: "",
+  //   github: "",
+  //   deployed: "",
+  //   categories: []
+  // },
 ]
