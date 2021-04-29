@@ -60,40 +60,40 @@ const Projects = [
     description: "Using inquirer to prompt the user, and jest to test. This app will prompt the user to create a team and fill in the required information for each team member. Upon completetion it will create an HTML page for the team",
     image: "../images/teamProfile.jpg",
     github: "https://github.com/SFoxGit/Team_Profile_Generator",
-    deployed: "",
-    categories: []
+    deployed: "https://drive.google.com/file/d/1kBk7dlrSnEdYkOIyzM2uV3UwfyIvK6Ra/view",
+    categories: ["backEnd"]
   },
   {
-    name: "",
-    description: "",
-    image: "",
-    github: "",
-    deployed: "",
-    categories: []
+    name: "Hottest Restaurant",
+    description: "Group project using Node and Express with vanilla javascript to create a table reservation system.",
+    image: "../images/hottestRest.jpg",
+    github: "https://github.com/SFoxGit/HottestRestaurant",
+    deployed: "https://dry-bayou-00961.herokuapp.com/",
+    categories: ["backEnd", "group"]
   },
   {
-    name: "",
-    description: "",
-    image: "",
-    github: "",
-    deployed: "",
-    categories: []
+    name: "Note Taker",
+    description: "Create backend code to make a functioning note taking app",
+    image: "../images/noteTaker.jpg",
+    github: "https://github.com/SFoxGit/note_taker",
+    deployed: "https://safe-cove-81792.herokuapp.com/notes",
+    categories: ["backEnd"]
   },
   {
-    name: "",
-    description: "",
-    image: "",
-    github: "",
-    deployed: "",
-    categories: []
+    name: "Employee Tracker",
+    description: "Content Management System using Node, Inquirer, and MySQL",
+    image: "../images/employeeTracker.jpg",
+    github: "https://github.com/SFoxGit/employee_tracker",
+    deployed: "https://drive.google.com/file/d/1-NKI3OxIf3WTRtijNg8kD5EgdAYJ0_8L/view",
+    categories: ["backEnd", "API"]
   },
   {
-    name: "",
-    description: "",
-    image: "",
-    github: "",
-    deployed: "",
-    categories: []
+    name: "Code Quiz",
+    description: "Using javascript to create a timer based quiz that calculates your score via time remaining. A wrong answer reduces your time. High scores are saved to local storage. This was my first interaction with local storage.",
+    image: "../images/codeQuiz.jpg",
+    github: "https://github.com/SFoxGit/code_quiz",
+    deployed: "https://sfoxgit.github.io/code_quiz/",
+    categories: ["frontEnd"]
   },
   {
     name: "",
