@@ -14,7 +14,7 @@ function Header() {
             <NavDropdown.Item href="/backend">Back-End</NavDropdown.Item>
             <NavDropdown.Item href="/api">APIs and Databases</NavDropdown.Item>
             <NavDropdown.Item href="/react">React</NavDropdown.Item>
-            <NavDropdown.Item href="/groups">Group Collaborations</NavDropdown.Item>
+            <NavDropdown.Item href="/group">Group Collaborations</NavDropdown.Item>
           </NavDropdown>
         </Nav>
         <Nav>
