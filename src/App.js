@@ -9,6 +9,7 @@ import BackEnd from './components/Backend';
 import API from './components/API';
 import ReactPage from './components/React';
 import Group from './components/Group';
+import Contact from './components/Contact';
 
 
 
@@ -38,6 +39,9 @@ function App() {
           </Route>
           <Route exact path="/group">
             <Group />
+          </Route>
+          <Route exact path="/contact">
+            <Contact />
           </Route>
         </Switch>
       </Router>

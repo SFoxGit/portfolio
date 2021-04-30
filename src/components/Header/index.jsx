@@ -18,7 +18,7 @@ function Header() {
           </NavDropdown>
         </Nav>
         <Nav>
-          <Nav.Link href="#deets">Contact</Nav.Link>
+          <Nav.Link href="/contact">Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
