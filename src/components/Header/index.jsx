@@ -4,7 +4,7 @@ import {Navbar, Nav, NavDropdown} from 'react-bootstrap'
 function Header() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-      <Navbar.Brand href="#home">Shawn Fox</Navbar.Brand>
+      <Navbar.Brand href="/">Shawn Fox</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">

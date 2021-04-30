@@ -140,7 +140,7 @@ const Projects = [
     description: "Final group project of my cohort. I set the rest of my team on the task of making our project look beautiful, while I made it functional. I wanted this to be a fully functioning multiplayer game, I always loved playing Cards Against Humanity with my friends but now we live hundreds of miles away from each other. Now that I am a web developer distance means nothing. So I created a server and a database. Brought in the CaH base set, and created some of my own. Connected the backend and frontend, used short polling for the lobby and then timers based on row creation in MySQL (seemed like a clever solution). A ton of routes later, we had a game. Now it's just making it more effecient and adding more features! I'm so incredibly proud of this project.",
     image: "../../images/homePage.png",
     github: "https://github.com/SFoxGit/Ghastly-Grin",
-    deployed: "https://github.com/SFoxGit/Ghastly-Grin/blob/main",
+    deployed: "https://ghastlygrin.herokuapp.com/",
     categories: ["backEnd", "frontEnd", "API", "React", "group"]
   },
   // {
