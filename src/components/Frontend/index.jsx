@@ -1,10 +1,15 @@
 import React from "react";
+import Project from "../../Projects"
 
 function Frontend() {
 
+  const projects = Project.filter(project => project.categories.includes("frontEnd"))
+
   return (
     <>
-      <div>Test Front</div>
+      {projects.map(front => (
+        <div>{front.name}</div>)
+      )}
     </>
   )
 }

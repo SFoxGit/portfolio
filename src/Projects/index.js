@@ -152,3 +152,5 @@ const Projects = [
   //   categories: []
   // },
 ]
+
+export default Projects;
