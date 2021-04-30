@@ -4,7 +4,7 @@ function About() {
 
   return (
     <>
-      <div>
+      <div className="container mt-3">
         <p>My name is Shawn Fox, I currently reside in the Charlotte NC area but am open to relocation.</p>
         <p>I have over a decade of very successful experience in the sales world. I tackled a wide variety of industries in that time ranging from the Oil and Gas industry, to cars, even to vinyl records.</p>
         <p>In 2021 I decided to seek a career change into something I could be passionate about. Coding drew me in thanks to it primarly being logic based. It seemed less like work and more like playing constant logic based puzzle games. Once I got passed HTML and CSS and into Javascript, I was hooked. This is just plain fun to me, and I can't get enough of it.</p>

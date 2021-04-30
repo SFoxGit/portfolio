@@ -2,6 +2,7 @@ import React from "react";
 
 function Container(props) {
   return (
+
     <div className="row border border-primary rounded m-3 indCards p-3">
       <div className="col-12 d-flex justify-content-center p-2">
         <a href={props.item.deployed}>
@@ -9,14 +10,15 @@ function Container(props) {
             alt="deployed site" />
         </a>
       </div>
-        <div className="col-12 d-flex flex-wrap justify-content-center">
-          <h5>{props.item.name}</h5>
-          <p>{props.item.description} Click the above image to go to
+      <div className="col-12 d-flex flex-wrap justify-content-center">
+        <h5>{props.item.name}</h5>
+        <p>{props.item.description} Click the above image to go to
         the diployed site, or <a href={props.item.github}>here</a> to go
         to
         the GitHub repo.</p>
-        </div>
       </div>
+    </div>
+
   )
 }
 
