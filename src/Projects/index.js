@@ -5,7 +5,8 @@ const Projects = [
     image: "./images/booFight.jpg",
     github: "https://github.com/SFoxGit/bane-of-olympus",
     deployed: "https://baneofolympus.herokuapp.com/",
-    categories: ["backEnd", "frontEnd", "api", "group"]
+    categories: ["backEnd", "frontEnd", "api", "group"],
+    startDate: "2021-03-21"
   },
   {
     name: "Restaurants Near Me",
@@ -13,7 +14,8 @@ const Projects = [
     image: "../../images/projectdisplay.jpg",
     github: "https://github.com/SFoxGit/Restaurants-Near-Me",
     deployed: "https://scashmore.github.io/Restaurants-Near-Me/",
-    categories: ["frontEnd", "api", "group"]
+    categories: ["frontEnd", "api", "group"],
+    startDate: "2021-02-28"
   },
   {
     name: "Weather Dashboard",
@@ -21,7 +23,8 @@ const Projects = [
     image: "../../images/weatherdashboard2.jpg",
     github: "https://github.com/SFoxGit/weather_search",
     deployed: "https://sfoxgit.github.io/weather_search/",
-    categories: ["frontEnd", "api"]
+    categories: ["frontEnd", "api"],
+    startDate: "2021-02-23"
   },
   {
     name: "Horiseon Refactor",
@@ -29,7 +32,8 @@ const Projects = [
     image: "../../images/horiseon.jpg",
     github: "https://github.com/SFoxGit/horiseon_refactor",
     deployed: "https://sfoxgit.github.io/horiseon_refactor/",
-    categories: ["frontEnd"]
+    categories: ["frontEnd"],
+    startDate: "2021-02-03"
   },
   {
     name: "Password Generator",
@@ -37,7 +41,8 @@ const Projects = [
     image: "../../images/passwordGenerator.jpg",
     github: "https://github.com/SFoxGit/password_generator",
     deployed: "https://sfoxgit.github.io/password_generator/",
-    categories: ["frontEnd"]
+    categories: ["frontEnd"],
+    startDate: "2021-02-14"
   },
   {
     name: "Daily Planner",
@@ -45,7 +50,8 @@ const Projects = [
     image: "../../images/dailyplanner.jpg",
     github: "https://github.com/SFoxGit/Daily_Planner_jQuery",
     deployed: "https://sfoxgit.github.io/Daily_Planner_jQuery/",
-    categories: ["frontEnd"]
+    categories: ["frontEnd"],
+    startDate: "2021-02-21"
   },
   {
     name: "README Generator",
@@ -53,7 +59,8 @@ const Projects = [
     image: "../../images/readmeGen.jpg",
     github: "https://github.com/SFoxGit/README_Generator",
     deployed: "https://drive.google.com/file/d/1fj0_4FZxQqtxBiJlshtnN5XEoDJXzYau/view",
-    categories: ["backEnd"]
+    categories: ["backEnd"],
+    startDate: ""
   },
   {
     name: "Team Profile Generator",
@@ -61,7 +68,8 @@ const Projects = [
     image: "../../images/teamProfile.jpg",
     github: "https://github.com/SFoxGit/Team_Profile_Generator",
     deployed: "https://drive.google.com/file/d/1kBk7dlrSnEdYkOIyzM2uV3UwfyIvK6Ra/view",
-    categories: ["backEnd"]
+    categories: ["backEnd"],
+    startDate: "2021-03-04"
   },
   {
     name: "Hottest Restaurant",
@@ -69,7 +77,8 @@ const Projects = [
     image: "../../images/hottestRest.jpg",
     github: "https://github.com/SFoxGit/HottestRestaurant",
     deployed: "https://dry-bayou-00961.herokuapp.com/",
-    categories: ["backEnd", "group"]
+    categories: ["backEnd", "group"],
+    startDate: "2021-03-11"
   },
   {
     name: "Note Taker",
@@ -77,7 +86,8 @@ const Projects = [
     image: "../../images/noteTaker.jpg",
     github: "https://github.com/SFoxGit/note_taker",
     deployed: "https://safe-cove-81792.herokuapp.com/notes",
-    categories: ["backEnd"]
+    categories: ["backEnd"],
+    startDate: ""
   },
   {
     name: "Employee Tracker",
@@ -85,7 +95,8 @@ const Projects = [
     image: "../../images/employeeTracker.jpg",
     github: "https://github.com/SFoxGit/employee_tracker",
     deployed: "https://drive.google.com/file/d/1-NKI3OxIf3WTRtijNg8kD5EgdAYJ0_8L/view",
-    categories: ["backEnd", "API"]
+    categories: ["backEnd", "API"],
+    startDate: "2021-03-13"
   },
   {
     name: "Code Quiz",
@@ -93,7 +104,8 @@ const Projects = [
     image: "../../images/codeQuiz.jpg",
     github: "https://github.com/SFoxGit/code_quiz",
     deployed: "https://sfoxgit.github.io/code_quiz/",
-    categories: ["frontEnd"]
+    categories: ["frontEnd"],
+    startDate: "2021-02-17"
   },
   {
     name: "Ecommerce back end",
@@ -101,7 +113,8 @@ const Projects = [
     image: "../../images/getCategories.gif",
     github: "https://github.com/SFoxGit/back_end_via_mysql",
     deployed: "../../images/getCategories.gif",
-    categories: ["backEnd", "API"]
+    categories: ["backEnd", "API"],
+    startDate: "2021-03-19"
   },
   {
     name: "Original Portfolio",
@@ -109,7 +122,8 @@ const Projects = [
     image: "../../images/firstPortfolio.jpg",
     github: "https://github.com/SFoxGit/shawn_fox_portfolio",
     deployed: "https://sfoxgit.github.io/shawn_fox_portfolio/",
-    categories: ["frontEnd"]
+    categories: ["frontEnd"],
+    startDate: "2021-02-09"
   },
   {
     name: "MechDog TechBlog",
@@ -117,7 +131,8 @@ const Projects = [
     image: "../../images/mechDog.jpg",
     github: "https://github.com/SFoxGit/MechDog_TechBlog",
     deployed: "https://blooming-island-18457.herokuapp.com/",
-    categories: ["frontEnd", "backEnd", "API"]
+    categories: ["frontEnd", "backEnd", "API"],
+    startDate: "2021-03-23"
   },
   {
     name: "Working It Out",
@@ -125,7 +140,8 @@ const Projects = [
     image: "../../images/stats.jpg",
     github: "https://github.com/SFoxGit/working_it_out",
     deployed: "https://working-it-out-001.herokuapp.com",
-    categories: ["backEnd", "API"]
+    categories: ["backEnd", "API"],
+    startDate: "2021-04-01"
   },
   {
     name: "Direct Dedicated Directory",
@@ -133,7 +149,8 @@ const Projects = [
     image: "../../images/desktopView.gif",
     github: "https://github.com/SFoxGit/direct-dedicated-directory",
     deployed: "https://sfoxgit.github.io/direct-dedicated-directory/",
-    categories: ["frontEnd", "backEnd", "API", "React"]
+    categories: ["frontEnd", "backEnd", "API", "React"],
+    startDate: "2021-04-07"
   },
   {
     name: "Ghastly Grin",
@@ -141,7 +158,8 @@ const Projects = [
     image: "../../images/homePage.png",
     github: "https://github.com/SFoxGit/Ghastly-Grin",
     deployed: "https://ghastlygrin.herokuapp.com/",
-    categories: ["backEnd", "frontEnd", "API", "React", "group"]
+    categories: ["backEnd", "frontEnd", "API", "React", "group"],
+    startDate: "2021-04-17"
   },
   // {
   //   name: "",
