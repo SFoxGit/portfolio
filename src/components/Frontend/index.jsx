@@ -9,7 +9,7 @@ function Frontend() {
   return (
     <>
       {projects.map(front => (
-        <Container item={front} />
+        <Container key={front.name} item={front} />
       ))}
     </>
   )

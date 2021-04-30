@@ -141,7 +141,7 @@ const Projects = [
     image: "../../images/homePage.png",
     github: "https://github.com/SFoxGit/Ghastly-Grin",
     deployed: "https://github.com/SFoxGit/Ghastly-Grin/blob/main",
-    categories: ["backEnd", "frontEnd", "API", "React"]
+    categories: ["backEnd", "frontEnd", "API", "React", "group"]
   },
   // {
   //   name: "",
