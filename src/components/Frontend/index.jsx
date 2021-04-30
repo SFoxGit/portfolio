@@ -1,5 +1,6 @@
 import React from "react";
-import Project from "../../Projects"
+import Project from "../../Projects";
+import Container from "../Container"
 
 function Frontend() {
 
@@ -8,8 +9,8 @@ function Frontend() {
   return (
     <>
       {projects.map(front => (
-        <div>{front.name}</div>)
-      )}
+        <Container item={front} />
+      ))}
     </>
   )
 }
