@@ -81,7 +81,7 @@ function App() {
               "retina_detect": false
             }} />
         </div>
-        <div className="container">
+        <div style={{zIndex: "1"}} className="container">
 
           <Switch>
             <Route exact path="/">

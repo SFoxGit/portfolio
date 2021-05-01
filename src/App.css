@@ -41,7 +41,7 @@ h5 {
   height: 100%;
   margin-top: 0 !important;
   margin-bottom: 0 !important;
-  z-index: 1 !important;
+  z-index: 0 !important;
 }
 
 .particles {
@@ -60,7 +60,7 @@ h5 {
 
   
 
-  background-image: url('');
+  /* background-image: ; */
 
   background-size: cover;
 
@@ -69,4 +69,12 @@ h5 {
   background-repeat: no-repeat;
 
   z-index: 0;
+}
+.container > * {
+  z-index: 1;
+}
+
+.btn {
+  z-index: 1 !important;
+  background-color: var(--accentColor) !important;
 }
