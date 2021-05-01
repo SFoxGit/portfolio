@@ -37,7 +37,7 @@ h5 {
 
 .main-content {
   background: var(--appBackground);
-  min-height: 100vh;
+  /* min-height: 100vh; */
   height: 100%;
   margin-top: 0 !important;
   margin-bottom: 0 !important;
