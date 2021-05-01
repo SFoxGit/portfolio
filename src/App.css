@@ -78,3 +78,7 @@ h5 {
   z-index: 1 !important;
   background-color: var(--accentColor) !important;
 }
+
+.border {
+  border-color: var(--appBackground) !important;
+}
