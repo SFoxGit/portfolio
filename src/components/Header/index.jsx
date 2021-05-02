@@ -1,10 +1,10 @@
 import React from "react";
-import {Navbar, Nav, NavDropdown} from 'react-bootstrap'
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap'
 
 function Header() {
   return (
     <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top">
-      <Navbar.Brand href="/">Shawn Fox</Navbar.Brand>
+      <Navbar.Brand className="brand" href="/">Shawn Fox</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto">

@@ -10,6 +10,7 @@
   min-height: 100vh;
   height: 100%;
   color: var(--textColor);
+  font-size: 28px;
 }
 
 nav {
@@ -81,4 +82,20 @@ h5 {
 
 .border {
   border-color: var(--appBackground) !important;
+}
+
+.brand {
+  font-size: 36px !important;
+}
+
+h2 {
+  color: var(--boldColor) !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: var(--accentColor) !important;
 }

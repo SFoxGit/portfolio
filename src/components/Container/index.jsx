@@ -11,7 +11,7 @@ function Container(props) {
         </a>
       </div>
       <div className="col-12 d-flex flex-wrap justify-content-center">
-        <h5>{props.item.name}</h5>
+        <h2>{props.item.name}</h2>
         <p>{props.item.description} Click the above image to go to
         the diployed site, or <a href={props.item.github}>here</a> to go
         to
