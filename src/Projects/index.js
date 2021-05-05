@@ -5,7 +5,7 @@ const Projects = [
     image: "./images/booFight.jpg",
     github: "https://github.com/SFoxGit/bane-of-olympus",
     deployed: "https://baneofolympus.herokuapp.com/",
-    categories: ["backEnd", "frontEnd", "api", "group"],
+    categories: ["backEnd", "frontEnd", "API", "group"],
     startDate: "2021-03-21"
   },
   {
@@ -14,16 +14,16 @@ const Projects = [
     image: "../../images/projectdisplay.jpg",
     github: "https://github.com/SFoxGit/Restaurants-Near-Me",
     deployed: "https://scashmore.github.io/Restaurants-Near-Me/",
-    categories: ["frontEnd", "api", "group"],
+    categories: ["frontEnd", "API", "group"],
     startDate: "2021-02-28"
   },
   {
     name: "Weather Dashboard",
-    description: "The goal of this was to create a weather webapp using openweathermap api and moment. It certainly displays my preference for backend developement instead of frontend!",
+    description: "The goal of this was to create a weather webapp using openweathermap API and moment. It certainly displays my preference for backend developement instead of frontend!",
     image: "../../images/weatherdashboard2.jpg",
     github: "https://github.com/SFoxGit/weather_search",
     deployed: "https://sfoxgit.github.io/weather_search/",
-    categories: ["frontEnd", "api"],
+    categories: ["frontEnd", "API"],
     startDate: "2021-02-23"
   },
   {
