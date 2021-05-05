@@ -10,6 +10,7 @@ import API from './components/API';
 import ReactPage from './components/React';
 import Group from './components/Group';
 import Contact from './components/Contact';
+import Work from './components/Work';
 import Particles from "react-particles-js";
 
 
@@ -102,8 +103,8 @@ function App() {
             <Route exact path="/react">
               <ReactPage />
             </Route>
-            <Route exact path="/group">
-              <Group />
+            <Route exact path="/work">
+              <Work />
             </Route>
             <Route exact path="/contact">
               <Contact />
