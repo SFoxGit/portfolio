@@ -60,7 +60,7 @@ const Projects = [
     github: "https://github.com/SFoxGit/README_Generator",
     deployed: "https://drive.google.com/file/d/1fj0_4FZxQqtxBiJlshtnN5XEoDJXzYau/view",
     categories: ["backEnd"],
-    startDate: ""
+    startDate: "2021-03-04"
   },
   {
     name: "Team Profile Generator",
@@ -69,7 +69,7 @@ const Projects = [
     github: "https://github.com/SFoxGit/Team_Profile_Generator",
     deployed: "https://drive.google.com/file/d/1kBk7dlrSnEdYkOIyzM2uV3UwfyIvK6Ra/view",
     categories: ["backEnd"],
-    startDate: "2021-03-04"
+    startDate: "2021-03-08"
   },
   {
     name: "Hottest Restaurant",
@@ -87,7 +87,7 @@ const Projects = [
     github: "https://github.com/SFoxGit/note_taker",
     deployed: "https://safe-cove-81792.herokuapp.com/notes",
     categories: ["backEnd"],
-    startDate: ""
+    startDate: "2021-03-13"
   },
   {
     name: "Employee Tracker",
@@ -96,7 +96,7 @@ const Projects = [
     github: "https://github.com/SFoxGit/employee_tracker",
     deployed: "https://drive.google.com/file/d/1-NKI3OxIf3WTRtijNg8kD5EgdAYJ0_8L/view",
     categories: ["backEnd", "API"],
-    startDate: "2021-03-13"
+    startDate: "2021-03-15"
   },
   {
     name: "Code Quiz",
