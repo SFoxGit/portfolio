@@ -99,3 +99,12 @@ a {
 a:hover {
   color: var(--accentColor) !important;
 }
+
+button {
+  margin: 6px !important;
+}
+
+button:hover {
+  background-color: var(--appBackground) !important;
+  color: var(--boldColor) !important;
+}
