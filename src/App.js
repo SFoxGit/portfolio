@@ -8,7 +8,7 @@ import FrontEnd from './components/Frontend';
 import BackEnd from './components/Backend';
 import API from './components/API';
 import ReactPage from './components/React';
-import Group from './components/Group';
+import Resume from './components/Resume';
 import Contact from './components/Contact';
 import Work from './components/Work';
 import Particles from "react-particles-js";
@@ -108,6 +108,9 @@ function App() {
             </Route>
             <Route exact path="/contact">
               <Contact />
+            </Route>
+            <Route exact path="/resume">
+              <Resume />
             </Route>
           </Switch>
         </div>

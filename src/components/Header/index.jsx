@@ -17,6 +17,7 @@ function Header() {
             <NavDropdown.Item href="/react">React</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href="/contact">Contact</Nav.Link>
+          <Nav.Link href="/resume">Resume</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
