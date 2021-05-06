@@ -21,7 +21,7 @@ function Resume() {
   }
 
   return (
-    <Container>
+    <>
       <div className="row border rounded m-3 indCards p-3">
         <div className="col-2 d-flex justify-content-center align-items-center p-2">
           <p>Page {pageNumber} of {numPages}</p>
@@ -31,14 +31,14 @@ function Resume() {
             file="./images/ShawnFoxResume2021.pdf"
             onLoadSuccess={onDocumentLoadSuccess}
           >
-            <Page pageNumber={pageNumber} />
+            <Page  pageNumber={pageNumber} />
           </Document>
         </div>
         <div className="col-2 d-flex justify-content-center align-items-center p-2">
           <Button style={{ zIndex: "1" }} onClick={() => newPage()}>{pageNumber === 1 ? ">" : "<"}</Button>
           </div>
       </div>
-    </Container>
+    </>
   )
 }
 

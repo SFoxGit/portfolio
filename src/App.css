@@ -108,3 +108,11 @@ button:hover {
   background-color: var(--appBackground) !important;
   color: var(--boldColor) !important;
 }
+
+.resume {
+  height: 80vh;
+}
+
+.annotationLayer {
+  display: none;
+}
