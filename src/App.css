@@ -109,10 +109,6 @@ button:hover {
   color: var(--boldColor) !important;
 }
 
-.resume {
-  height: 80vh;
-}
-
 .annotationLayer {
   display: none;
 }

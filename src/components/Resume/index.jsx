@@ -23,20 +23,23 @@ function Resume() {
   return (
     <>
       <div className="row border rounded m-3 indCards p-3">
-        <div className="col-2 d-flex justify-content-center align-items-center p-2">
+        <div className="col-2 d-flex flex-wrap justify-content-center align-items-center p-2">
           <p>Page {pageNumber} of {numPages}</p>
-          </div>
+          <p>Click the resume to download</p>
+        </div>
         <div className="col-8 d-flex justify-content-center p-2">
-          <Document
-            file="./images/ShawnFoxResume2021.pdf"
-            onLoadSuccess={onDocumentLoadSuccess}
-          >
-            <Page  pageNumber={pageNumber} />
-          </Document>
+          <a download="ShawnFoxResume.pdf" href="./images/ShawnFoxResume2021.pdf">
+            <Document
+              file="./images/ShawnFoxResume2021.pdf"
+              onLoadSuccess={onDocumentLoadSuccess}
+            >
+              <Page className="resume" pageNumber={pageNumber} />
+            </Document>
+          </a>
         </div>
         <div className="col-2 d-flex justify-content-center align-items-center p-2">
           <Button style={{ zIndex: "1" }} onClick={() => newPage()}>{pageNumber === 1 ? ">" : "<"}</Button>
-          </div>
+        </div>
       </div>
     </>
   )
