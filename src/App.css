@@ -102,11 +102,15 @@ a:hover {
 
 button {
   margin: 6px !important;
+  color: var(--appBackground) !important;
+  font-weight: bolder !important;
+  box-shadow: 4px 4px 2px var(--appBackground) !important;
 }
 
 button:hover {
   background-color: var(--appBackground) !important;
   color: var(--boldColor) !important;
+  box-shadow: none !important;
 }
 
 .annotationLayer {
@@ -126,6 +130,9 @@ button:hover {
 } */
 
 @media only screen and (max-width: 900px) {
+  .indCards {
+    margin: 2px !important;
+  }
   .react-pdf__Page__canvas {
     width: 80vw !important;
   }
