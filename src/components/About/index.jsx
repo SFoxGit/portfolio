@@ -1,6 +1,9 @@
 import React from "react";
+import useMediaQuery from '@material-ui/core/useMediaQuery';
+
 
 function About() {
+  const matches = useMediaQuery('(min-width:900px)');
 
   return (
     <>
@@ -18,12 +21,14 @@ function About() {
         <div className="col-12 d-flex justify-content-center p-2">
           <div className="row d-flex">
             <p className="col-12 text-center">My Top Five Tools</p>
-            <div className="col-12 d-flex justify-content-between">
-              <img src="https://img.shields.io/badge/-JavaScript-black?style=for-the-badge&logo=javascript" alt="javascript" />
-              <img src="https://img.shields.io/badge/-Nodejs-black?style=for-the-badge&logo=Node.js" alt="node" />
-              <img src="https://img.shields.io/badge/-MySQL-black?style=for-the-badge&logo=mysql" alt="MySQL" />
-              <img src="https://img.shields.io/badge/-React-black?style=for-the-badge&logo=react" alt="react" />
-              <img src="https://img.shields.io/badge/-Bootstrap-563D7C?style=for-the-badge&logo=bootstrap" alt="bootstrap" />
+            <div className="col-12 d-flex justify-content-center">
+              <div className="row d-flex justify-content-center w-100">
+                <img className="col-xs-12 col-md-2" src="https://img.shields.io/badge/-JavaScript-black?style=for-the-badge&logo=javascript" alt="javascript" />
+                <img className="col-xs-12 col-md-2" src="https://img.shields.io/badge/-Nodejs-black?style=for-the-badge&logo=Node.js" alt="node" />
+                <img className="col-xs-12 col-md-2" src="https://img.shields.io/badge/-MySQL-black?style=for-the-badge&logo=mysql" alt="MySQL" />
+                <img className="col-xs-12 col-md-2" src="https://img.shields.io/badge/-React-black?style=for-the-badge&logo=react" alt="react" />
+                <img className="col-xs-12 col-md-2" src="https://img.shields.io/badge/-Bootstrap-black?style=for-the-badge&logo=bootstrap" alt="bootstrap" />
+              </div>
             </div>
           </div>
         </div>
@@ -33,13 +38,17 @@ function About() {
           <div className="row d-flex justify-content-center">
             <p className="col-12 text-center">GitHub Stats</p>
             <div className="col-xs-12 col-md-6 d-flex justify-content-center mt-2">
-              <img className="" src="https://github-readme-stats.vercel.app/api?username=sfoxgit&theme=blue-green" alt="github stats"></img>
+              <img style={{ flex: 1, width: "100%", height: "100%", resizeMode: 'contain' }} className="" src="https://github-readme-stats.vercel.app/api?username=sfoxgit&theme=blue-green" alt="github stats"></img>
             </div>
             <div className="col-xs-12 col-md-6 d-flex justify-content-center mt-2">
-              <img className="" src="https://github-readme-streak-stats.herokuapp.com/?user=sfoxgit&theme=blue-green" alt="github streak"></img>
+              <img style={{ flex: 1, width: "100%", height: "100%", resizeMode: 'contain' }} className="" src="https://github-readme-streak-stats.herokuapp.com/?user=sfoxgit&theme=blue-green" alt="github streak"></img>
             </div>
             <div className="col-12 d-flex justify-content-center mt-4">
-              <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sfoxgit&theme=blue-green" alt="Top Langs" />
+              {matches ?
+                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sfoxgit&theme=blue-green" alt="Top Langs" />
+                :
+                <img style={{ flex: 1, width: "100%", height: "100%", resizeMode: 'contain' }} src="https://github-readme-stats.vercel.app/api/top-langs/?username=sfoxgit&theme=blue-green" alt="Top Langs" />
+              }
             </div>
           </div>
         </div>
