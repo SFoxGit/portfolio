@@ -12,8 +12,8 @@ function About() {
           <div className="row d-flex">
             <p>My name is Shawn Fox, I am a full-stack web developer currently residing in the Charlotte NC area but am open to relocation.</p>
             <p>I have over a decade of very successful experience in the sales world. I tackled a wide variety of industries in that time ranging from the Oil and Gas industry, to cars, even to vinyl records.</p>
-            <p>In 2021 I decided to seek a career change into something I could be passionate about. Coding drew me in thanks to it primarly being logic based. It seemed less like work and more like playing constant logic based puzzle games. Once I got passed HTML and CSS and into Javascript, I was hooked. This is just plain fun to me, and I can't get enough of it.</p>
-
+            <p>In 2021 I decided to seek a career change into something I could be passionate about. Coding drew me in thanks to it primarly being logic based. It seemed less like work and more like playing constant logic based puzzle games. Once I got past HTML and CSS and into Javascript, I was hooked. This is just plain fun to me, and I can't get enough of it.</p>
+            <p>I'm very much looking forward to being able to narrow down the scope of my coding in a new career. Focus hopefully on programming, making things function reliably. At the same time, I will be excited to advance my total knowledgebase in my free time with new languages.</p>
           </div>
         </div>
       </div>
