@@ -161,6 +161,31 @@ const Projects = [
     categories: ["backEnd", "frontEnd", "API", "React", "group"],
     startDate: "2021-04-17"
   },
+  {
+    name: "Real-time Chat",
+    description: "Using Socket.IO to create a Whatsapp or Slack like chat application in real time. Data all saved locally, no backend database",
+    image: "../../images/chat.gif",
+    github: "https://github.com/SFoxGit/socket-chat",
+    deployed: "",
+    categories: ["backEnd", "frontEnd", "React"],
+    startDate: "2021-05-02"
+  }
+  // {
+  //   name: "",
+  //   description: "",
+  //   image: "",
+  //   github: "",
+  //   deployed: "",
+  //   categories: []
+  // },
+  // {
+  //   name: "",
+  //   description: "",
+  //   image: "",
+  //   github: "",
+  //   deployed: "",
+  //   categories: []
+  // },
   // {
   //   name: "",
   //   description: "",
