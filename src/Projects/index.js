@@ -169,15 +169,15 @@ const Projects = [
     deployed: "https://github.com/SFoxGit/socket-chat",
     categories: ["backEnd", "frontEnd", "React"],
     startDate: "2021-05-02"
-  }
+  },
   {
     name: "Python Blog",
     description: "First introduction to Python, converted existing site using javascript backend into a python backend. Front-end was fully provided.",
     image: "../../images/pythonBlog.gif",
     github: "https://github.com/SFoxGit/python-newsfeed",
     deployed: "https://sfox-tech-news.herokuapp.com/",
-    categories: ["backEnd", "Python"]
-  },
+    categories: ["backEnd", "python"]
+  }
   // {
   //   name: "",
   //   description: "",

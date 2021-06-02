@@ -12,8 +12,9 @@ function Container(props) {
       </div>
       <div className="col-12 d-flex flex-wrap justify-content-center">
         <h2>{props.item.name}</h2>
-        <p>{props.item.description} Click the above image to go to
-        the diployed site, or <a href={props.item.github}>here</a> to go
+        <p>{props.item.description}</p>
+        <p> Click the above image to go to
+        the deployed site, or <a href={props.item.github}>here</a> to go
         to
         the GitHub repo.</p>
       </div>
