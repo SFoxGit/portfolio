@@ -15,6 +15,7 @@ function Header() {
             <NavDropdown.Item href="/backend">Back-End</NavDropdown.Item>
             <NavDropdown.Item href="/api">APIs and Databases</NavDropdown.Item>
             <NavDropdown.Item href="/react">React</NavDropdown.Item>
+            <NavDropdown.Item href="/python">Python</NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href="/contact">Contact</Nav.Link>
           <Nav.Link href="/resume">Resume</Nav.Link>

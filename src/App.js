@@ -12,6 +12,7 @@ import Resume from './components/Resume';
 import Contact from './components/Contact';
 import Work from './components/Work';
 import Particles from "react-particles-js";
+import Python from './components/Python';
 
 
 
@@ -111,6 +112,9 @@ function App() {
             </Route>
             <Route exact path="/resume">
               <Resume />
+            </Route>
+            <Route exact path="/python">
+              <Python />
             </Route>
           </Switch>
         </div>
