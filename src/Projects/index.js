@@ -176,7 +176,17 @@ const Projects = [
     image: "../../images/pythonBlog.gif",
     github: "https://github.com/SFoxGit/python-newsfeed",
     deployed: "https://sfox-tech-news.herokuapp.com/",
-    categories: ["backEnd", "python"]
+    categories: ["backEnd", "python"],
+    startDate: "2021-06-02"
+  },
+  {
+    name: "South Main Kitchen & Tavern",
+    description: "React website for local restaurant. Includes full menu, the ability to select different menu sections, and checks local time vs hours of operation to tell if the restaurant is currently open.",
+    image: "../../images/smktHome.jpg",
+    github: "https://github.com/SFoxGit/smkt",
+    deployed: "https://sfoxgit.github.io/smkt/#/",
+    categories: ["frontEnd", "React"],
+    startDate: "2021-06-30"
   }
   // {
   //   name: "",
@@ -185,14 +195,7 @@ const Projects = [
   //   github: "",
   //   deployed: "",
   //   categories: []
-  // },
-  // {
-  //   name: "",
-  //   description: "",
-  //   image: "",
-  //   github: "",
-  //   deployed: "",
-  //   categories: []
+  //   startDate: ""
   // },
 ]
 
